@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest package="org.tizen.example.Cronometro.Tizen" version="1.0.0" api-version="4" xmlns="http://tizen.org/ns/packages">
+    <description xml:lang="pt-br">Portugues</description>
+    <profile name="common" />
+    <ui-application appid="org.tizen.example.Cronometro.Tizen" exec="Cronometro.Tizen.dll" multiple="false" nodisplay="false" taskmanage="true" splash-screen-display="true" type="dotnet" launch_mode="single">
+        <label>Cronometro.Tizen</label>
+        <icon>Cronometro.Tizen.png</icon>
+        <metadata key="http://tizen.org/metadata/prefer_dotnet_aot" value="true" />
+        <label xml:lang="pt-br">Portugues</label>
+        <icon xml:lang="pt-br">Portugues</icon>
+        <splash-screens />
+    </ui-application>
+    <shortcut-list />
+    <provides-appdefined-privileges />
+</manifest>
